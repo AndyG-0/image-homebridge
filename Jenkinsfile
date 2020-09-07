@@ -5,7 +5,7 @@ pipeline {
             steps {
                 script {
                     echo 'Create Dockerfile ...'
-                    sh 'docker build -t registry-192.168.1.38.nip.io/homebridge-pi:latest .'
+                    sh 'docker build -t registry-192.168.1.38.nip.io/homebridge:latest .'
                 }
             }
         }
@@ -13,7 +13,7 @@ pipeline {
             steps {
                 script {
                     echo 'Push Docker Image ...'
-                    sh 'docker push registry-192.168.1.38.nip.io/homebridge-pi:latest'
+                    sh 'docker push registry-192.168.1.38.nip.io/homebridge:latest'
                 }
             }
         }
