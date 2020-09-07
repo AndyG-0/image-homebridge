@@ -5,4 +5,6 @@ homebridge-lifx-lan \
 homebridge-bravia \
 homebridge-tplink-smarthome \
 homebridge-vesync \
-homebridge-liftmaster
+homebridge-myq2 \
+git+https://github.com/luisiam/homebridge-liftmaster2.git
+
