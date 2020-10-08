@@ -1,6 +1,5 @@
 FROM oznu/homebridge:raspberry-pi
 
-RUN npm cache clean
 RUN npm i -g homebridge-nest \
 homebridge-lifx-lan \
 homebridge-bravia \
