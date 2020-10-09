@@ -1,6 +1,7 @@
 FROM oznu/homebridge:raspberry-pi
 
-RUN npm i -g homebridge-nest@latest \
+RUN npm i -g homebridge@latest \
+homebridge-nest@latest \
 homebridge-lifx-lan@latest \
 homebridge-bravia@latest \
 homebridge-tplink-smarthome@latest \
