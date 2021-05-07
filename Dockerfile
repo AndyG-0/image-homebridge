@@ -1,4 +1,4 @@
-FROM oznu/homebridge:raspberry-pi
+FROM oznu/homebridge:latest
 
 RUN npm i -g homebridge@latest \
 homebridge-nest@latest \
